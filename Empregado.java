@@ -36,5 +36,20 @@ public class empregado {
     public void setNome(String nome) {
         this.nome = nome;
     }
-
+    public double getBonus() {
+        return bonus;
+    }
+    public double getComissao() {
+        return comissao;
+    }
+    public double getSalario() {
+        return salario;
+    }
+    public void setComissao(double comissao) {
+        this.comissao = comissao;
+    }
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+    
 }
